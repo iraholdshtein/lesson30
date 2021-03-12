@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game</title>
+</head>
+<body>
+    <div class = main-conteiner>
+        <div class = conteiner >
+            <ul class="nav nav-tabs" >
+                <li class="nav-item" >
+                    <button class="navLinks active btn" onclick="openTab(event, 'conteinerBody')"><img class="icon" src="/imajes/tooltip.svg" alt="icon">Home</button>
+                </li>
+                <li class="nav-item">
+                    <button class="navLinks btn" onclick="openTab(event, 'conteinerBody')"><img class="icon" src="/imajes/card.svg" alt="icon">Profile</button>
+                </li>
+                <li class="nav-item">
+                    <button class="navLinks btn" onclick="openTab(event, 'conteinerBody')"><img class="icon" src="/imajes/basket.svg" alt="icon">Contact</button>
+                </li>
+            </ul>
+            <div class="conteiner-body" >
+                <div class="conteinerBody is-visible" id="Home">
+                    <img class="img-fon" src="/imajes/cover.png" alt="Game" >
+                        <div class="block-element">
+                            <h2 class="title">FarCry 4</h2>
+                            <h3 class="subtitle">First Released Nov 17, 2014<h3>
+                                <p class="text">In Far Cry 4, players find themselves in Kyrat, a breathtaking, perilous and wild region of the Hima layas
+                                struggling under the regime of a despotic self-appointed king.</p>
+                        </div>
+                </div>    
+            </div>
+                <div class="footer-conteiner">
+                     <ul class="rating">
+                        <li><img  src="/imajes/favourite.svg" alt="star" srcset=""></li>
+                        <li><img  src="/imajes/favourite.svg" alt="star" srcset=""></li>
+                        <li><img  src="/imajes/favourite.svg" alt="star" srcset=""></li>
+                        <li><img  src="/imajes/favourite.svg" alt="star1" srcset=""></li>
+                        <li><img  src="/imajes/favourite copy 4.svg" alt="star" srcset=""></li>
+                    </ul>
+                    <ul class="price-tab" style = "list-style: none;">
+                        <li style="color: #FEDC3F; font-size: 15px; " >20% OFF!  </li>
+                        <li style="color: white;" >$59.96</li>
+                    </ul>
+                    <button class="btn-menu">BUY IT NOW</button>
+                </div> 
+        </div>
+    </div>          
+            <div class="conteiner-body">
+                    <div class="conteinerBody" id="Profile">
+                        <img class="img-fon" src="/imajes/cover.png" alt="Game" >
+                        <div class="block-element">
+                            <h2 class="title">FarCry 4</h2>
+                            <h3 class="subtitle">First Released Nov 17, 2014<h3>
+                        </div>
+                    </div> 
+            </div> 
+            <div class="conteinerBody" id="Contact">
+                <div class="imege">
+                    <img src="/imajes/cover.png"  alt="Game">
+                </div>
+            </div>  
+        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>  
+<script type="text/javascript" src="/js/script.js" ></script>
+</body>
+</html>
